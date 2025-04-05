@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Intro Page</title>
+</head>
+<body>
+<h1>웹</h1>
+<hr>
+<main>
+    <p>
+        웹은 한 컴퓨터에서 만든 문서를 다른 컴퓨터에서 쉽게 볼 수 있도록 하는 것이다. 인터넷으로 전 세계의 컴퓨터들을
+        거미줄처럼 연결하고 웹 문서를 쉽게 주고 받을 수 있도록 시스템을 만들며 간단하게 web이라고 부른다.
+    </p>
+    <h3>목차</h3>
+    <nav>
+        <ul>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#JS">JavaScript</a></li>
+        </ul>
+    </nav>
+</main>
+<div>
+    <h3 id="HTML"><a href="https://ko.wikipedia.org/wiki/HTML">HTML</a></h3>
+    <p>HTML은 웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용합니다. HTML이외의 다른 기술은 일반적으로 웹 페이지의
+    모양/표현(CSS), 또는 기능/동작(JavaScript)를 설명하는 데 사용됩니다.</p>
+
+    <h3 id="CSS"><a href="https://ko.wikipedia.org/wiki/CSS">CSS</a></h3>
+    <p>CSS설명</p>
+
+    <h3 id="JS"><a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8">JavaScript</a></h3>
+    <p>JavaScript설명</p>
+</div>
+<br>
+<table>
+    <tbody>
+    <tr>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" width="300" height="300">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" width="250" height="300">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/1200px-Javascript-shield.svg.png" width="250" height="300">
+    </tr>
+    </tbody>
+</table>
+
+<footer>
+    <h3>만족도조사</h3>
+    <p>
+        방금 방문하신 페이지에 대한 의견을 받습니다. 많은 참여 부탁드립니다.
+    </p>
+    <hr>
+    <form action="/gg">
+        <p>학년:
+            <input type="radio" name="grade" id="1학년">
+            <label for="1학년">1학년</label>
+            <input type="radio" name="grade" id="2학년">
+            <label for="2학년">2학년</label>
+            <input type="radio" name="grade" id="3학년">
+            <label for="3학년">3학년</label></p>
+        <p>
+            성별:
+            <input type="radio" name="gender" id="남자">
+            <label for="남자">남자</label>
+            <input type="radio" name="gender" id="여자">
+            <label for="여자">여자</label>
+        </p>
+        <p>
+            관심분야:
+            <select name="관심분야" id="관심분야">
+                <option value="front">front
+                </option>
+                <option value="back">back
+                        </option>
+                <option value="AI">AI</option>
+            </select>
+        </p>
+        <p>
+            진로:
+            <input type="checkbox" name="직군" id="개발">
+            <label for="개발">개발</label>
+            <input type="checkbox" name="기획" id="기획">
+            <label for="기획">기획</label>
+            <input type="checkbox" name="영업" id="영업">
+            <label for="영업">영업</label>
+            <input type="checkbox" name="창업" id="창업">
+            <label for="창업">창업</label>
+
+        </p>
+        <p>
+            기타 의견:
+            <input type="text">
+            <input type="submit">
+        </p>
+    </form>
+</footer>
+</body>
+</html>
