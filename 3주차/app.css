@@ -1,0 +1,25 @@
+body{
+    background-color: #F1EFEC;
+}
+body h1{
+    text-align: center;
+    color: #706D54;
+}
+
+main p{
+
+}
+main nav{
+    border: 1px solid slategray;
+}
+
+hr {
+    background-color: #fff;
+    padding: 0;
+    margin: 80px;
+}
+
+
+footer{
+    border: 1px solid slategray;
+}
