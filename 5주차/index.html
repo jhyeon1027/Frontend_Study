@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://www.logoyogo.com/web/wp-content/uploads/edd/2022/03/logoyogo-1-36.jpg">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                PingPong Score Keeper
+                            </p>
+                        </header>
+
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1"><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                                <p class="subtitle is-6">아래 버튼을 눌러 점수를 기록하세요.</p>
+
+                                <label for="playto" class="label is-large is-inline">PlayngTo</label>
+                                <div class="select rounded">
+                                    <div class="select is-rounded">
+                                        <select name="" id="playto">
+                                            <option value="5">5</option>
+                                            <option value="7">7</option>
+                                            <option value="9">9</option>
+                                            <option value="11">11</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button id="p1Button" class="is-primary button card-footer-item is is-large">+1 Player One</button>
+                            <button id="p2Button" class="is-info button card-footer-item is-large">+1 Player Two</button>
+                            <button id="reset" class="is-danger button card-footer-item is-large">Reset</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"><</script>
+</body>
+</html>
